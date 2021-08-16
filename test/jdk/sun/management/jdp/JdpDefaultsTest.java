@@ -59,6 +59,7 @@ public class JdpDefaultsTest extends DynamicLauncher {
                 "-Dcom.sun.management.jdp.pause=1",
                 "-Dcom.sun.management.jdp.name=" + jdpName,
                 "-Djava.util.logging.SimpleFormatter.format='%1$tF %1$tT %4$-7s %5$s %n'",
+                "-Djava.net.preferIPv4Stack=true",
                 testName
         };
         return options;
